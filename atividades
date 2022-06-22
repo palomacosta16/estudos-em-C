@@ -1,0 +1,20 @@
+//sintese
+//	objetivo "celsius para fahrenheit "
+//	entrada "celsius"
+//	saida "fahrenheit"
+#include <stdio.h>
+
+int main () {
+	float c, f, v;
+	
+	printf ("Indique o Graus Celsius: ");
+	scanf ("%f",&c);
+	
+	v = ((c * 9) / 5) + 32;
+	
+	printf ("Grau Fahrenheit: %f ", v);
+	
+	return 0;
+	
+}
+
